@@ -20,12 +20,14 @@ In the project directory you can run:
 
 ### `json-server --watch db.json --port 3010`
 
-Start the JSON server
-Open home [http://localhost:3010](http://localhost:3010)
+Starts the JSON server
+
+Open home [http://localhost:3010](http://localhost:3010) to view it in your browser.
 
 #### Resources
 
 [/courses](http://localhost:3010/courses)
+
 [/professors](http://localhost:3010/professors)
 
 # Getting Started with Create React App
@@ -47,4 +49,3 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
