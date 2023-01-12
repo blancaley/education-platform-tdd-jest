@@ -10,9 +10,23 @@ The application works in all modern browsers and is usable in different screen s
 
 ## Techniques/methodologies
 
-The application has been developed according to TDD (Test-driven development) principles and contains at least 1 test per component.
-React's own Context API is used for central state management.
-Refs and portals are also used.
+- The application has been developed according to TDD (Test-driven development) principles and contains at least 1 test per component.
+- React's own Context API is used for central state management.
+- Refs and portals are also used.
+
+## Server
+
+In the project directory you can run:
+
+### `json-server --watch db.json --port 3010`
+
+Start the JSON server
+Open home [http://localhost:3010](http://localhost:3010)
+
+#### Resources
+
+[/courses](http://localhost:3010/courses)
+[/professors](http://localhost:3010/professors)
 
 # Getting Started with Create React App
 
