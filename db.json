@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Testing React Applications with Jest",
+      "length": "3",
+      "description": "In my this course, Testing React Applications with Jest, you'll learn how to test React applications from the ground up. We'll learn how to install Jest and integrate it with a new or existing node application. We'll learn about running tests with Jest, but we'll also learn advanced techniques.",
+      "startDate": "2023-01-12T12:49:41.480Z"
+    },
+    {
+      "id": 2,
+      "name": "Managing React State",
+      "length": "3",
+      "description": "React apps aren't just read‑only, they're interactive. So a typical React app declares literally dozens of pieces of state, and in React there's a surprising number of options for effectively handling this state, including plain state, refs, context, reducers, web storage, hooks, and more. Some of the key topics that we'll cover in this course include patterns for declaring, setting, and reliably deriving state, sharing data and logic between components, managing loading, error, and form validation state, tracking un‑rendered state and server state, and, most importantly, how to choose between these different state management approaches",
+      "startDate": "2023-01-12T12:49:41.480Z"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript Fundamentals",
+      "length": "3",
+      "description": "JavaScript is the language of the web, and you'll need a fundamental understanding of this language to create great applications and web pages on the internet. This course was developed to teach you the key JavaScript syntax and features you'll need to learn as a successful web developer.",
+      "startDate": "2023-01-12T12:49:41.480Z"
+    }
+  ],
+  "professors": [
+    {
+      "id": "1",
+      "firstName": "Michael",
+      "lastName": "Gustavsson",
+      "securityNumber": "12345-6789",
+      "email": "michael.gustavsson@email.com",
+      "phoneNumber": "0731118776",
+      "skills": "programming, testing, react, c#"
+    },
+    {
+      "id": "2",
+      "firstName": "Leanne",
+      "lastName": "Graham",
+      "securityNumber": "92998-3874",
+      "email": "leanne.graham@email.com",
+      "phoneNumber": "17707368031",
+      "skills": "programming, javascript, frontend"
+    },
+    {
+      "id": "3",
+      "firstName": "Ervin",
+      "lastName": "Howell",
+      "securityNumber": "90566-7771",
+      "email": "ervin.howell@email.com",
+      "phoneNumber": "0106926593",
+      "skills": "node, javascript, frontend, backend"
+    }
+  ]
+}
