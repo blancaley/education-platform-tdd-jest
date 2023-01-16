@@ -1,18 +1,11 @@
-import { useFetch } from "../hooks/useFetch";
-import { courseService } from "../service";
+import { CourseList } from "../components/course-list";
 
 const Home = () => {
-  const courses = useFetch(courseService.fetchCourses);
-
   return (
     <div className="App">
       <h1>Westcoast Education</h1>
       <p>Courses</p>
-      <ul>
-        {courses?.map(({ id, ...course }) => {
-          return <li key={id}>{course.name}</li>;
-        })}
-      </ul>
+      <CourseList />
     </div>
   );
 };
