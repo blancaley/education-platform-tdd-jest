@@ -18,9 +18,9 @@ The application works in all modern browsers and is usable in different screen s
 
 In the project directory you can run:
 
-### `json-server --watch db.json --port 3010`
+### `npm run server`
 
-Starts the JSON server
+Runs the JSON server
 
 Open home [http://localhost:3010](http://localhost:3010) to view it in your browser.
 
@@ -48,4 +48,4 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
