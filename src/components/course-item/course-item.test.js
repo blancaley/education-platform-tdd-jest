@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { CourseItem } from "./";
+import { CourseItem } from ".";
 import { MemoryRouter } from "react-router-dom";
 
 describe("Course Item", () => {

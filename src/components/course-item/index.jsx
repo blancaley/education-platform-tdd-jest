@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 
 const CourseItem = ({ course }) => {
-  const { name, path } = course;
+  const { name, number, path, length, startDate } = course;
   return (
     <li>
-      <Link to={`${path}`}>{name}</Link>
+      <Link to={`/courses/${path}`} state={course}>
+        <h2>{name}</h2>
+        <p>{number}</p>
+        <p>{length}</p>
+        <p>{startDate}</p>
+      </Link>
     </li>
   );
 };

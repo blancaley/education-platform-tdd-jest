@@ -1,9 +1,9 @@
-import { useFetch } from "../../hooks/useFetch";
-import { courseService } from "../../service";
 import { CourseItem } from "../course-item";
+import { useContext } from "react";
+import { StoreContext } from "../store";
 
 const CourseList = () => {
-  const courses = useFetch(courseService.fetchCourses);
+  const { courses } = useContext(StoreContext);
 
   return (
     <ul>
