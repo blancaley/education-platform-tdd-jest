@@ -14,6 +14,10 @@ The application works in all modern browsers and is usable in different screen s
 - React's own Context API is used for central state management.
 - Refs and portals are also used.
 
+<img width="869" alt="Screenshot 2023-01-27 at 20 48 53" src="https://user-images.githubusercontent.com/32361363/215184301-b9e1cc52-4896-4293-b259-7b2d418a7aaa.png">
+<img width="870" alt="Screenshot 2023-01-27 at 20 49 08" src="https://user-images.githubusercontent.com/32361363/215184318-52e42ae2-c785-4f6e-80bb-96837da1bc31.png">
+<img width="983" alt="Screenshot 2023-01-27 at 20 49 54" src="https://user-images.githubusercontent.com/32361363/215184328-02d5f103-4309-4b45-ac41-907bc10527ca.png">
+
 ## Server
 
 In the project directory you can run:
