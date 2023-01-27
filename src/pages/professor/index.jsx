@@ -12,7 +12,11 @@ const Professors = () => {
       <h1>Professors</h1>
       <button
         onClick={() =>
-          setModalComponent(<Portal component={<AddProfessor />} />)
+          setModalComponent(
+            <Portal
+              component={<AddProfessor setModalComponent={setModalComponent} />}
+            />
+          )
         }
       >
         Add professor

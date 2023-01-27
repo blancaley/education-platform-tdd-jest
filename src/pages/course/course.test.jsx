@@ -3,7 +3,7 @@ import { Courses } from ".";
 
 describe("Course", () => {
   const setup = () => render(<Courses />);
-  test("It should have a heading", () => {
+  it("should have a heading", () => {
     setup();
     const heading = screen.getByRole("heading");
     expect(heading).toBeInTheDocument();
