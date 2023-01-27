@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ const Home = () => {
         år. Vi har specialiserat oss på framförallt
         systemutvecklingsutbildningar inom webb och mobila lösningar.
       </p>
+      <Link to={"/courses"}>View all courses</Link>
     </div>
   );
 };

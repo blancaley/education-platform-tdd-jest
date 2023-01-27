@@ -8,7 +8,7 @@ const useFetch = (fetchFunction) => {
       setData(data);
     };
     fetchData();
-  }, []);
+  }, [fetchFunction]);
 
   return data;
 };

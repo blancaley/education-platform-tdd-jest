@@ -11,4 +11,20 @@ const fetchCourses = async () => {
   throw new Error("API returned error");
 };
 
-export { fetchCourses };
+const postCourse = async (course) => {
+  const response = await fetch(`${apiUrl}/courses`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(course),
+  });
+  const data = await response.json();
+
+  if (response.status === 201) {
+    return data;
+  }
+
+  throw new Error("API returned error");
+};
+export { fetchCourses, postCourse };
