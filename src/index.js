@@ -8,6 +8,7 @@ import { Courses } from "./pages/course";
 import { Professor } from "./pages/professor/professor";
 import { Professors } from "./pages/professor";
 import { Layout } from "./components/layout";
+import "./styles/globals.css";
 
 const router = createBrowserRouter([
   {

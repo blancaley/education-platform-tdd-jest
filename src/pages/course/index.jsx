@@ -8,19 +8,23 @@ const Courses = () => {
   const { setModalComponent } = useContext(StoreContext);
 
   return (
-    <main>
-      <h1>Courses</h1>
-      <button
-        onClick={() =>
-          setModalComponent(
-            <Portal
-              component={<AddCourse setModalComponent={setModalComponent} />}
-            />
-          )
-        }
-      >
-        Add course
-      </button>
+    <main className="flex w-96 max-w-md flex-col items-center gap-8">
+      <div className="flex w-full justify-between">
+        <h1>Courses</h1>
+        <button
+          className="button"
+          onClick={() =>
+            setModalComponent(
+              <Portal
+                component={<AddCourse setModalComponent={setModalComponent} />}
+              />
+            )
+          }
+        >
+          Add course
+        </button>
+      </div>
+
       <CourseList />
     </main>
   );

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+  h1,
+  .h1 {
+    @apply font-serif text-2xl font-black leading-none tracking-tight md:text-4xl md:leading-none;
+  }
+}
+
+@layer utilities {
+  .button {
+    @apply rounded bg-blue-500 px-5 py-4 text-base font-bold leading-none text-white hover:bg-blue-600;
+  }
+  .activeLink {
+    @apply border-b-2 border-pink-900 pb-2 font-bold text-pink-900;
+  }
+}

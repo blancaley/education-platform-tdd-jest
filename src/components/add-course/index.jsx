@@ -28,24 +28,64 @@ const AddCourse = ({ setModalComponent }) => {
     setModalComponent(null);
   };
   return (
-    <form onSubmit={(e) => handleSubmit(e)}>
+    <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col gap-8">
       <div>
-        <label htmlFor="courseName">Course Name</label>
-        <input type="text" id="courseName" ref={nameRef} />
+        <label
+          htmlFor="courseName"
+          className="mb-2 block text-sm font-bold text-gray-700"
+        >
+          Course Name
+        </label>
+        <input
+          type="text"
+          id="courseName"
+          className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none"
+          ref={nameRef}
+        />
       </div>
       <div>
-        <label htmlFor="description">Description</label>
-        <textarea type="text" id="description" ref={descriptionRef} />
+        <label
+          htmlFor="description"
+          className="mb-2 block text-sm font-bold text-gray-700"
+        >
+          Description
+        </label>
+        <textarea
+          type="text"
+          id="description"
+          className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none"
+          ref={descriptionRef}
+        />
       </div>
       <div>
-        <label htmlFor="startDate">Start Date</label>
-        <input type="date" id="startDate" ref={startDateRef} />
+        <label
+          htmlFor="startDate"
+          className="mb-2 block text-sm font-bold text-gray-700"
+        >
+          Start Date
+        </label>
+        <input
+          type="date"
+          id="startDate"
+          className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none"
+          ref={startDateRef}
+        />
       </div>
       <div>
-        <label htmlFor="length">Course Length</label>
-        <input type="text" id="length" ref={lengthRef} />
+        <label
+          htmlFor="length"
+          className="mb-2 block text-sm font-bold text-gray-700"
+        >
+          Course Length
+        </label>
+        <input
+          type="text"
+          id="length"
+          className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 shadow focus:outline-none"
+          ref={lengthRef}
+        />
       </div>
-      <button>Add course</button>
+      <button className="button justify-self-center">Add course</button>
     </form>
   );
 };

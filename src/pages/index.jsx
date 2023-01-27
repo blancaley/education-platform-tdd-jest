@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Home = () => {
   return (
-    <div className="App">
+    <div className="flex max-w-md flex-col items-center gap-8">
       <h1>Westcoast Education</h1>
       <p>
         WestCoast Education är ett utbildningsföretag som har sin placering på
@@ -11,7 +11,9 @@ const Home = () => {
         år. Vi har specialiserat oss på framförallt
         systemutvecklingsutbildningar inom webb och mobila lösningar.
       </p>
-      <Link to={"/courses"}>View all courses</Link>
+      <Link to={"/courses"} className={"button"}>
+        View all courses
+      </Link>
     </div>
   );
 };

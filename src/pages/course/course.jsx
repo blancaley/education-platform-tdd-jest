@@ -13,11 +13,14 @@ const Course = () => {
   return (
     <>
       {course && (
-        <main data-testid="course-page">
-          <h1>{course.name}</h1>
+        <main
+          data-testid="course-page"
+          className="flex w-96 max-w-md flex-col gap-2 rounded bg-white p-8 shadow-lg"
+        >
+          <h1 className="mb-4">{course.name}</h1>
           <p>{course.description}</p>
           <p>Start date: {course.startDate}</p>
-          <p>Length: {course.length}</p>
+          <p>Duration: {course.length}</p>
         </main>
       )}
     </>

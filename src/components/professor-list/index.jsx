@@ -6,7 +6,7 @@ const ProfessorList = () => {
   const { professors } = useContext(StoreContext);
 
   return (
-    <ul>
+    <ul className="flex w-full flex-col gap-4">
       {professors?.map((professor) => {
         const { id } = professor;
         return <ProfessorItem key={id} professor={professor} />;
